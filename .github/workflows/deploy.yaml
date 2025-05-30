@@ -1,16 +1,16 @@
-#nombre
+
 name: "Deploy CodigoFacilito"
-#Trigger
+
 on:
   push:
     branches: ["main"]
-#Jobs 
+
 jobs:
     deploy-codigofacilito:
-  # runner donde se va a ejecutar
+ 
   runs-on: ubuntu-latest
 
-  # pasos que va ajecutar
+
   steps:
   uses: actions/checkout@v4
     run: echo "Hacemos pull de código"
