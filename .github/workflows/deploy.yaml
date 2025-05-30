@@ -11,7 +11,7 @@ jobs:
   runs-on: ubuntu-latest
 
   # pasos que va ajecutar
-  steps:
+  step:
     run: echo "Hacemos pull de código"
     run: echo "Correr migraciones"
     run: echo "Generar binario"
