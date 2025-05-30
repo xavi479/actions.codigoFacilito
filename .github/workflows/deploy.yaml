@@ -7,11 +7,9 @@ on:
 jobs:
     deploy-codigofacilito:
       runs-on: ubuntu-latest
-
-
       steps:
-          -uses: actions/checkout@v4
-          -run: echo "Hacemos pull de código"
-          -run: echo "Correr migraciones"
-          -run: echo "Generar binario"
-          -run: echo "Publicar versión"
+          - uses: actions/checkout@v4
+          - run: echo "Hacemos pull de código"
+          - run: echo "Correr migraciones"
+          - run: echo "Generar binario"
+          - run: echo "Publicar versión"
